@@ -1,0 +1,13 @@
++ process is An instance of  a program (e.g python intrepeters)
++ thread is an subdomain of a process a process can have multiple threads
+
++process takes advantage of multiple threads CPUs and cores
++seperate memory space memory is not share between processes
++Great for CPUs bound processing
++New process is stated independently from other processes
++process is interruptable and killable
++One Gil for each process => avoids Gil limitation
+
+-Heavyweight
+-Starting a process is slower than starting a thread
+-IPC (inter-process communication) is more complicated

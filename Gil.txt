@@ -1,0 +1,9 @@
+GIL:global integrated lock
+A lock that allows only one thread at a time to be executed in python
+
+needed in Cpython because memory managment is not thread safe
+
+Avoid:
+use multiprocessing
+use a different ,free-threaded python implentation (Jython,Ironpython)
+use python as wrapper forthird party libraries as (c/c++) like numpy and scipy
