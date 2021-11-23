@@ -6,6 +6,7 @@ if __name__ == '__main__':
     numbers = range(10)
     pool = Pool()
     # map ,apply , join ,close
+    #pool.apply(cube,numbers[0])
     result =  pool.map(cube,numbers)
     pool.close()
     pool.join()
